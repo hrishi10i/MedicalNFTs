@@ -277,8 +277,8 @@ export default function Listmynft() {
               <input type={"file"} onChange={OnChangeFile}></input>
             </div>
             <br></br>
-            <div className="text-green text-center">{message}</div>
-            <label style={checkboxLabelStyle}>
+            <div className="text-green text-center" style={{ color: '#fff' }}>{message}</div>
+            <label className="text-slate-200" style={checkboxLabelStyle}>
               <input
                 type="checkbox"
                 style={checkboxStyle}
@@ -290,9 +290,8 @@ export default function Listmynft() {
             <br></br>
             <button
               onClick={listNFT}
-              className={`listbtn bg-sky-500 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded-md transition-colors duration-300 ease-in-out w-full sm:w-auto ${
-                !isCheckboxChecked ? "opacity-50 hover:bg-sky-500" : ""
-              }`}
+              className={`listbtn bg-sky-500 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded-md transition-colors duration-300 ease-in-out w-full sm:w-auto ${!isCheckboxChecked ? "opacity-50 hover:bg-sky-500" : ""
+                }`}
               disabled={!isCheckboxChecked}
             >
               List NFT
@@ -304,7 +303,7 @@ export default function Listmynft() {
           </form>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

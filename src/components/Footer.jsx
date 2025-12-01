@@ -26,17 +26,17 @@ export default function Footer() {
           <h3 className="text-3xl text-slate-200">Contact Us</h3>
           <p className="text-xl text-slate-200">
             <MDBIcon icon="envelope" className="me-3" />
-            abhilashbora3107@gmail.com
+            hrishirajdework@gmail.com
           </p>
           <p className="text-xl text-slate-300">
-            <MDBIcon icon="phone" className="me-3" /> +91 7718954084
+            <MDBIcon icon="phone" className="me-3" /> +91 9820804102
           </p>
         </div>
       </div>
       <hr className="flex w-4/5 mx-auto h-1"></hr>
       <div className="flex text-xl text-slate-400 justify-center p-4">
         <p>
-          © 2024 Copyright <a className='text-reset fw-bold' href='/'>MedLink.Systems</a>
+          © 2025 Copyright <a className='text-reset fw-bold' href='/'>MedLink.Systems</a>
         </p>  
       </div>
     </footer>
